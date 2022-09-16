@@ -17,7 +17,7 @@ while(remainder_three < 0 or remainder_three >= 3):
         
     elif remainder_three >= 3:
         print('The value entered must be less than 3')
-        
+#reading remainder again     
     remainder_three = int(input('What is the remainder when your number is divided by 3 ?'))
 
 #Remainder for five
@@ -28,7 +28,7 @@ while(remainder_five < 0 or remainder_five >= 5):
 
     elif remainder_five >= 5:
         print('The value entered must be less than 5')
-
+#reading remainder again    
     remainder_five = int(input('What is the remainder when your number is divided by 5 ?'))
     
 #remainder for seven
@@ -39,7 +39,7 @@ while(remainder_seven < 0 or remainder_seven >= 7):
         print('The value entered must be 0 or greater')
     elif remainder_seven >= 7:
         print('The value entered must be less than 7')
-
+#reading remainder again    
     remainder_seven = int(input('What is the remainder when your number is divided by 7 ?'))
 
 #finding the number
@@ -54,6 +54,7 @@ for i in range(1,101):
 game = True
 while game:
     answer = input('Do you want to play again? Y to continue, N to quit ==>')
+#answer is yes
     if answer == "Y" or answer == 'y':
         print('\nPlease think of a number between and including 1 and 100.')
         print()
@@ -83,7 +84,7 @@ while game:
                 print('The value entered must be less than 7')
 
             remainder_seven = int(input('What is the remainder when your number is divided by 7 ?'))
-        
+ #answer is no       
     elif answer == "N" or answer == 'n':
         game = False
         
