@@ -1,6 +1,7 @@
 import csv
 a=[]
 
+
 while(True):
     try:
         x = float(input("Enter the minimum mpg here "))
