@@ -1,5 +1,4 @@
 import random
-
 def play_again() -> bool:
     while True:
         a = input('Do you want to play again? Y/Yes or N/No')
