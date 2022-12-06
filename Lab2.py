@@ -1,6 +1,5 @@
 print('**** Welcome to the LAB grade calculator! ****')
 print()
-
 user_name = input('Who are we calculating grades for? ==>')
 print()
 user_labgrade = int(input('Enter the Labs grade? ==>'))
